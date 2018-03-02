@@ -24,7 +24,7 @@ void add_2(Table a, Spisok b)
 
 int add_list_token(Table a, Spisok b)
 {
-    if(b.next_token == Null)
+    if(b.next_token == NULL)
     add_2(a,b);
     b.next_token = (struct List *) malloc(sizeof(struct List));
     return 0;
